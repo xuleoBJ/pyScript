@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<inkscape-extension xmlns="http://www.inkscape.org/namespace/inkscape/extension">
+<_name>Z2</_name>
+<id>xl.setColor.Z2</id>
+<dependency type="executable" location="extensions">coloreffect.py</dependency>
+<dependency type="executable" location="extensions">xl_setColorZ2.py</dependency>
+<dependency type="executable" location="extensions">simplestyle.py</dependency>
+<effect>
+<object-type>all</object-type>
+<effects-menu>
+<submenu _name="SY/T5615-2004地层填色"/>
+</effects-menu>
+</effect>
+<script>
+<command reldir="extensions" interpreter="python">xl_setColorZ2.py</command>
+</script>
+</inkscape-extension>

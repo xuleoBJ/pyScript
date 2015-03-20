@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<inkscape-extension xmlns="http://www.inkscape.org/namespace/inkscape/extension">
+<_name>气层</_name>
+<id>xl.setColor.jsjlgas</id>
+<dependency type="executable" location="extensions">coloreffect.py</dependency>
+<dependency type="executable" location="extensions">xl_setJSJLgas.py</dependency>
+<dependency type="executable" location="extensions">simplestyle.py</dependency>
+<effect>
+<object-type>all</object-type>
+<effects-menu>
+<submenu _name="解释结论"/>
+</effects-menu>
+</effect>
+<script>
+<command reldir="extensions" interpreter="python">xl_setJSJLgas.py</command>
+</script>
+</inkscape-extension>

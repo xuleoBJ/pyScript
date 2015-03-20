@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<inkscape-extension xmlns="http://www.inkscape.org/namespace/inkscape/extension">
+<_name>pattern背景色替换</_name>
+<id>xl.setColor.PatterBackColorChange</id>
+<dependency type="executable" location="extensions">coloreffect.py</dependency>
+<dependency type="executable" location="extensions">xl_PatterBackColorChange.py</dependency>
+<dependency type="executable" location="extensions">simplestyle.py</dependency>
+<param name="to_color" type="string" max_length="6" _gui-text="填充颜色 (RRGGBB):" _gui-description="New color">000000</param>
+<effect>
+<object-type>all</object-type>
+<effects-menu>
+<submenu _name="pattern背景色替换"/>
+</effects-menu>
+</effect>
+<script>
+<command reldir="extensions" interpreter="python">xl_PatterBackColorChange.py</command>
+</script>
+</inkscape-extension>
